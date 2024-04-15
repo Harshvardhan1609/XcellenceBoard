@@ -8,6 +8,7 @@ import pickle
 from pathlib import Path
 import streamlit_authenticator as stauth
 
+# genai.configure(api_key=st.secrets["GOOGLE_API"])
 genai.configure(api_key=st.secrets["GOOGLE_API"])
 
 
